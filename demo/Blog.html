@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <!-- Bootstrap 5 CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="css/Blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+         <div class="bg-info bg-opacity-10 border-bottom py-2 small" style="background: #eaf6fb;">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-3">
+          <span class="me-3"><i class="bi bi-telephone"></i> +1-202-555-0194</span>
+          <span class="me-3"><i class="bi bi-envelope"></i> support@unseen.com</span>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <a href="#" class="text-dark me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-dark me-2"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-dark me-2"><i class="bi bi-instagram"></i></a>
+          <span class="mx-2">|</span>
+          <a href="#" class="text-dark me-2">English</a>
+          <a href="#" class="text-dark">USD</a>
+        </div>
+      </div>
+    </div>
+       <nav class="navbar">
+        <div class="logo">unsen</div>
+        <div class="nav-links">
+              <ul>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="Features.html" class="new">Features</a></li>
+                <li><a href="Shop.html" class="hot">Shop</a></li>
+                <li><a href="Pages.html">Products</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Lookbook.html">Lookbook</a></li>
+                <li><a href="Pages.html">Pages</a></li>
+                <li><a href="Blog.html">Buy Theme</a></li>
+            </ul>
+        </div>
+        <div class="nav-icons">
+            <a href="#"><i class="bi bi-search"></i></a>
+            <a href="#"><i class="bi bi-person"></i></a>
+            <a href="#" class="cart"><i class="bi bi-cart"></i></a>
+        </div>
+    </nav> 
+    </header>
+        
+    
+
+<div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('img/banner1.jpg');">
+                <!-- <div class="carousel-overlay">
+                    <div class="carousel-content">
+                        <h1>Khám Phá Sản Phẩm Mới</h1>
+                        <p>Trải nghiệm công nghệ tiên tiến ngay hôm nay!</p>
+                        <a href="#" class="btn btn-primary btn-lg">Xem Ngay</a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="carousel-item" style="background-image: url('img/banner2.jpg');">
+                <!-- <div class="carousel-overlay">
+                    <div class="carousel-content">
+                        <h1>Ưu Đãi Đặc Biệt</h1>
+                        <p>Tiết kiệm lớn với các chương trình khuyến mãi!</p>
+                        <a href="#" class="btn btn-primary btn-lg">Mua Sắm Ngay</a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="carousel-item" style="background-image: url('img/banner3.jpg');">
+                <!-- <div class="carousel-overlay">
+                    <div class="carousel-content">
+                        <h1>Dịch Vụ Chuyên Nghiệp</h1>
+                        <p>Hỗ trợ tận tâm, chất lượng hàng đầu!</p>
+                        <a href="#" class="btn btn-primary btn-lg">Liên Hệ</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <footer class="bg-dark text-white pt-5 pb-3 mt-5" data-aos="fade-up" style="border-radius: 1.5rem 1.5rem 0 0;">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-3">
+          <h5 class="fw-bold mb-3">unseen</h5>
+          <p class="small">Unseen is a leading contemporary brand providing high quality fashion for everyone.</p>
+          <div class="d-flex gap-2">
+            <a href="#" class="text-white-50"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#" class="text-white-50"><i class="bi bi-twitter fs-5"></i></a>
+            <a href="#" class="text-white-50"><i class="bi bi-instagram fs-5"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold mb-3">Customer Services</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-white-50 text-decoration-none">FAQs</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Collections & Delivery</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Returns & Exchanges</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Shipping & Delivery</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold mb-3">Our Stories</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-white-50 text-decoration-none">News</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Events</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Journey</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Sustainability</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold mb-3">Stay Connected</h6>
+          <form>
+            <div class="input-group mb-2">
+              <input type="email" class="form-control" placeholder="Enter your email">
+              <button class="btn btn-primary" type="submit">Subscribe</button>
+            </div>
+          </form>
+          <small>Subscribe to our newsletter and get 10% off your first purchase</small>
+        </div>
+      </div>
+      <hr class="border-secondary my-4">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small">
+        <div class="mb-2 mb-md-0">&copy; 2024 Unseen Store. All rights reserved.</div>
+        <div>
+          <a href="#" class="text-white-50 me-3">Privacy Policy</a>
+          <a href="#" class="text-white-50 me-3">Returns & Exchanges</a>
+          <a href="#" class="text-white-50 me-3">Shipping & Delivery</a>
+        </div>
+        <div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa" width="40" class="me-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="Mastercard" width="40" class="me-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" width="40">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
